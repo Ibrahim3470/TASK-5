@@ -1,0 +1,22 @@
+.parent
+{
+    background-color: #ddd;
+    padding: 20px;
+    width: 600px;
+    height: 300px;
+    display: grid;
+    margin: auto;
+    align-content: space-between;
+    grid-template-columns: 1fr 
+    1fr 1fr;
+    gap: 30px;
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica,
+}
+
+.parent div
+{
+    background-color: red;
+    text-align: center;
+}
